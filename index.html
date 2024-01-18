@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="header">
+          <div class="image-container">
+            <img src="./images/image-victor.jpg" class="image" alt="avater" />
+          </div>
+        </div>
+
+        <div class="center">
+          <div class="heading">
+            <div class="flex">
+              <p class="name">Victor Crest</p>
+              <p class="number">26</p>
+            </div>
+            <div class="text">
+              <p class="city">London</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="line"></div>
+        <div class="footer">
+          <div class="follow">
+            <p class="numbers">80K</p>
+            <p class="second">Followers</p>
+          </div>
+          <div class="likes">
+            <p class="numbers">803K</p>
+            <p class="second">Likes</p>
+          </div>
+          <div class="photo">
+            <p class="numbers">1.4K</p>
+            <p class="second">Photos</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!--  
+
+.container::after {     content: '';     position: absolute;     bottom: 0;     right: 0px;     width: 50%;     height: 50%;     background-color: hsl(185, 75%, 39%);     background-image: url('./images/bg-pattern-top.svg');     background-repeat: no-repeat;     opacity: 1.6;     z-index: -1;     border-radius: 10px; }
+
+  .container::before {
+    content: '';
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url('./images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat;
+    opacity: 1.5;
+    z-index: -1;
+    border-radius: 10px;
+    left: -111px;
+    top: 0;
+}
+ -->
